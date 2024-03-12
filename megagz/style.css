@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1F26;
+    font-size: 16px;
+    color: #7C7D7E;
+}
+  
+.container {
+    width: 500px;
+    padding: 20px;
+    background-color: #1A1F26;
+    border-radius: 10px;
+    border: 2px solid #2B3035;
+}
+  
+h1 {
+    text-align: center;
+    color: #CE3F2D;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 30px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+input[type="text"],
+button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #7C7D7E;
+    background-color: #2B3035;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    color: #7C7D7E;
+}
+
+input[type="text"]:hover {
+    color: whitesmoke;
+}
+
+input[type="file"] {
+    opacity: 0;
+    width: 500px;
+    height: 500px;
+}
+
+#file-label {
+    margin-top: 15px;
+}
+
+.file-drop-area {
+    width: 100%;
+    height: 100px;
+    border: 2px dashed #2B3035;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.file-input-button {
+    padding: 10px 15px;
+    background-color: #CE3F2D;
+    color: #7C7D7E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 80%;
+}
+  
+.file-input-button:hover {
+    background-color: #B23E2F;
+    color: whitesmoke;
+}
+
+#archive-name:hover {
+    background-color: #B23E2F;
+    color: whitesmoke;
+}
+  
+button {
+    background-color: #CE3F2D;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 80%;
+}
+  
+button:hover {
+    background-color: #B23E2F;
+}
+
+#download-btn {
+    background-color: #CE3F2D;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 80%;
+}
+
+#error {
+    background-color: #CE3F2D;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+}
